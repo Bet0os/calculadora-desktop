@@ -31,5 +31,6 @@ function calcular() {
       break;
   }
 
-  document.getElementById("resultado").textContent = `Resultado: ${resultado}`;
+  document.getElementById("resultado").textContent =
+    `Este es tu Resultado: ${resultado}`;
 }
